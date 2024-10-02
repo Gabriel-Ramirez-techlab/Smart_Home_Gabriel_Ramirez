@@ -1,0 +1,66 @@
+.background-img{
+background-image: url();
+background-position: center;
+height: 400px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+
+.body{
+    background-color:#37435A;
+   align-content: center;
+   margin: 0;
+   padding: 0;
+}
+
+.margin{
+
+margin: 10%;
+}
+
+.headers{
+    background-color: 
+}
+
+
+.sell{
+
+background-color: ;
+}
+
+.navy{
+font-size: larger;
+font-family: 'Times New Roman';
+color: aliceblue;
+
+
+}
+.nav p{
+    background-color: aliceblue;
+}
+
+
+.flex-daddy{
+    display: flex;
+    border: double;
+    background-color: #B58E31;
+    margin-bottom: 20%;
+    border-radius: 15px;
+}
+
+
+
+
+.footer{
+    background-color: rgb(237, 171, 64);
+    border: dotted;
+    
+}
+.footer-end{
+align-content:last baseline;
+
+}
+
