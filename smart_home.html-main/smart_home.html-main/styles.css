@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+body {
+  background-color: #faf4ed;
+}
+
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color: #fff;
+
+}
+
+
+.cool-ash h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #ae6d39;
+}
+
+
+.cool-ash p {
+  color: #8e8e8e;
+  font-size: 0.9rem;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+
+
+.nav-links li a {
+  color: #4b4b4b;
+}
+
+
+.nav-links li a:hover {
+  color: #ae6d39;
+}
+
+
+.nav-icons a {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #4b4b4b;
+}
+
+
+.nav-icons a:hover {
+  color: #ae6d39;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+ 
+  background: url('images/pbi.jpg') no-repeat center center/cover;
+height: 700px;
+
+
+}
+
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text3{
+  padding: 5px;
+  display: flex;
+  font-size: 3rem;
+  color: #ae6d39;
+  justify-content: center;
+}
+.hero-text h2 {
+  font-size: 3rem;
+  color: #ae6d39;
+}
+
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #9d6408;
+ 
+}
+
+
+
+
+
+
+.hero-image img {
+  width: 500px;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+.card {
+margin-left: 12%;
+margin-right: 15%;
+  background-color: #ffffff;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+margin-bottom: 10%;
+}
+
+
+
+
+
+
+.card-container {
+ padding-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+ 
+}
+.card img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+ 
+}
+.card h3 {
+  margin: 10px 0 10px;
+}
+.card p {
+
+  color: #555;
+}
+
+
+.info-boxs{
+  display: flex;
+margin-left: 10%;
+margin-right: 10%;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 40px;
+
+ 
+}
+.info-boximg{
+
+
+ height: 350px;
+ width: 500px;
+}
+.hero-text2{
+  justify-content: center;
+  margin-top: 10%;
+  padding: 5px;
+  max-width: 600px;
+  font-size: 2rem;
+  color: #ae6d39;
+  margin-left: 10%;
+}
+
+
+.trio{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10%;
+  gap: 100px;
+  width: 33;
+
+
+}
+
+
+.help-links{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30%;
+
+  padding: 50px;
+  color: #9d6408;
+  font-size:xx-large;
+}
+
+.TREE{
+  display: flex;
+justify-content: center;
+border: #ae6d39;
+background-color: #ec9751;
+margin-left: 20%;
+margin-right: 20%;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+.foot{
+  background-color: #ffffff;
+  border: #4b4b4b;
+  color: rgb(2, 41, 41);
+}
+
+.automation{
+margin-left: 20%;
+margin-right: 20%;
+background-color: rgb(20, 111, 190);
+}
+
+.benfits-info{
+  
+  background-color: #826a4e;
+  opacity: 80%;
+  height: 600px;
+  margin-left: 75%;
+  
+  }
+
+.bgimg-1{
+  background: url('images/k1.jpg') no-repeat center center/cover;
+  height: 700px;
+  margin-bottom: 10px;
+padding: 50px;
+border: double;
+
+}
+
+.bgimg-2{
+  border: double;
+  background: url('images/k2.jpg') no-repeat center center/cover;
+  height: 700px;
+  margin-bottom: 10px;
+padding: 50px;
+}
+
+.bgimg-3{
+  border: double;
+  background: url('images/k3.jpg') no-repeat center center/cover;
+  height: 700px;
+  margin-bottom: 10px;
+padding: 50px;
+}
+
+.bgimg-4{
+  border: double;
+  background: url('images/k4.jpg') no-repeat center center/cover;
+  height: 700px;
+  padding: 10px;
+margin-bottom: 10px;
+}
+.bgimg-5{
+  border: double;
+  background: url('images/k5.jpg') no-repeat center center/cover;
+  height: 700px;
+  padding: 10px;
+margin-bottom: 10px;
+}
+.bgimg-6{
+  border: double;
+  background: url('images/k6.jpg') no-repeat center center/cover;
+  height: 700px;
+  padding: 10px;
+margin-bottom: 10px;
+}
+
+
+.autom{
+  background-color: #e7e2d2;
+ margin-left: 15%;
+ margin-right:15%;
+height: 100%;
+}
+
