@@ -125,7 +125,7 @@ height: 700px;
 
 
 .card {
-margin-left: 8%;
+margin-left: 16%;
 margin-right: 2%;
   background-color: #ffffff;
   width: 450px;
@@ -223,6 +223,7 @@ border-radius: 10px;
   background-color: #ffffff;
   border: #4b4b4b;
   color: rgb(2, 41, 41);
+  margin-bottom: 50px;
 }
 
 
@@ -237,7 +238,7 @@ border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #f6f1f1;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -247,7 +248,7 @@ border-radius: 10px;
 .footstuff a{
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #030303;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -270,7 +271,7 @@ border-radius: 10px;
   margin-bottom: 10px;
 padding: 50px;
 border: double;
-
+margin-bottom: 15%;
 }
 
 .bgimg-2{
@@ -279,6 +280,7 @@ border: double;
   height: 700px;
   margin-bottom: 10px;
 padding: 50px;
+margin-bottom: 15%;
 }
 
 .bgimg-3{
@@ -287,6 +289,7 @@ padding: 50px;
   height: 700px;
   margin-bottom: 10px;
 padding: 50px;
+margin-bottom: 15%;
 }
 
 .bgimg-4{
@@ -295,6 +298,7 @@ padding: 50px;
   height: 700px;
   padding: 10px;
 margin-bottom: 10px;
+margin-bottom: 15%;
 }
 .bgimg-5{
   border: double;
@@ -302,6 +306,7 @@ margin-bottom: 10px;
   height: 700px;
   padding: 10px;
 margin-bottom: 10px;
+margin-bottom: 15%;
 }
 .bgimg-6{
   border: double;
@@ -309,6 +314,7 @@ margin-bottom: 10px;
   height: 700px;
   padding: 10px;
 margin-bottom: 10px;
+margin-bottom: 15%;
 }
 
 
