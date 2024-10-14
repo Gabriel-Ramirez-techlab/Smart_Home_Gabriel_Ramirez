@@ -187,6 +187,7 @@ padding: 40px;
   font-size: 2rem;
   color: #ae6d39;
   margin-left: 10%;
+ 
 }
 
 
@@ -225,10 +226,40 @@ border-radius: 10px;
 
 
 .foot{
-  background-color: #ffffff;
-  border: #4b4b4b;
-  color: rgb(2, 41, 41);
+  margin-bottom: 50px;
+list-style: none;
+background-color: #e7e2d2;
+
+  width: 100%
+  
 }
+
+.footstuff{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+.footstuff a{
+  float: left;
+  display: block;
+  color: #080808;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
 
 .automation{
 margin-left: 20%;
